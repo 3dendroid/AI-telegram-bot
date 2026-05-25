@@ -7,7 +7,7 @@ from aiogram.filters import Command
 from aiogram.methods import DeleteWebhook
 from aiogram.types import Message
 from dotenv import load_dotenv
-from mistralai import Mistral
+from mistralai.client import Mistral
 
 # Load environment variables from .env file
 load_dotenv()
